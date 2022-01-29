@@ -1,0 +1,284 @@
+#row1 {
+  clip-path: polygon(0 0, 79% 8%, 100% 0%, 100% 98%, 85% 96%, 65% 100%, 50% 85%, 35% 100%, 15% 99%, 0 95%);
+}
+
+#carouselhome {
+ /*clip-path: polygon(0 0, 100% 0, 100% 56vh, 35vw 100%, 0 100%);*/
+}
+
+#carouselhome .carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  overflow: hidden;
+}
+#carouselhome .carousel-item:before {
+  content: "";
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent, rgba(0, 0, 0, 0.5)
+      );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cv-image{
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cv-image .mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color:#fff;
+}
+
+.cv-image .mask .text{
+    height: 100%;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+
+.cv-image .mask .text p{
+    margin:0;
+}
+.cv-image img{
+  object-fit: cover;
+  object-position: center;
+  height: 85vh;
+  overflow: hidden;
+}
+#cv-image1 {
+  -webkit-clip-path: polygon(30% 0%, 100% 0, 100% 70%, 70% 100%, 0 100%, 0% 30%);
+  clip-path: polygon(30% 0%, 100% 0, 100% 70%, 70% 100%, 0 100%, 0% 30%);
+}
+#panel1 {
+
+  /*clip-path: polygon(0 0, 100% 0, 100% 100%, 15vw 100%, 0% 56vh);
+  /*clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%, 0% 70%);*/
+  min-height: 60vh;
+}
+#cut-cover {
+      width: 100vw;
+      height: 85vh;
+      background: transparent;
+      position: relative;
+}
+#cut-cover:before {
+  content: "";
+  width: 100vw;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 20vh solid transparent;
+  border-left: 20vw solid rgba(248, 249, 250);
+}
+#cut-cover:after {
+  content: "";
+  width: 100vw;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 20vh solid transparent;
+  border-right: 20vw solid rgba(248, 249, 250);
+}
+
+
+
+#cut-carousel {
+  height: 80vh;
+  background: transparent;
+  position: relative;
+}
+#cut-carousel:before {
+  content: "";
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#cut-carousel:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 20vh solid transparent;
+  border-right: 15vw solid rgba(248, 249, 250);
+}
+
+
+#cut-panel{
+  width: 100%;
+  height: 80vh;
+  background: transparent;
+  position: relative;
+}
+#cut-panel:before {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 20vh solid transparent;
+}
+#cut-panel:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 20vh solid transparent;
+  border-left: 15vw solid rgba(248, 249, 250);
+}
+
+
+  #octagon {
+    width: 100%;
+    height: 80vh;
+    background: transparent;
+    position: relative;
+  }
+  #octagon:before {
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 20vh solid transparent;
+    border-left: 20vw solid #eee;
+    border-right: 20vw solid #eee;
+  }
+  #octagon:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 20vh solid transparent;
+    border-left: 20vw solid #eee;
+    border-right: 20vw solid #eee;
+  }
+
+  #octagon {
+    top: -10vh;
+    width: 15vw;
+    height: 20vh;
+    background: transparent;
+    position: relative;
+  }
+  #octagon:before {
+    content: "";
+    width: 15vw;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 4.5vh solid rgba(248, 249, 250);
+    border-left: 4.5vw solid transparent;
+    border-right: 4.5vw solid transparent;
+  }
+  #octagon:after {
+    content: "";
+    width: 15vw;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 4.5vh solid rgba(248, 249, 250);
+    border-left: 4.5vw solid transparent;
+    border-right: 4.5vw solid transparent;
+  }
+
+  .hex3 {
+    width: 10vw;
+    height: 20vh;
+    background: rgba(248, 249, 250);
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    z-index: 999;
+  }
+
+  #cv-image2{
+    margin-top: -10vh;
+    height: 80vh;
+    clip-path: polygon(0% 0%, 26% 10%, 64% 0, 100% 16%, 100% 100%, 63% 86%, 26% 100%, 0 86%);
+  }
+/*
+  Site para facilitar os Clip-path:
+  https://bennettfeely.com/clippy/
+
+  Cantos Triâgulares:
+    Canto superior esquerdo:
+    clip-path: polygon(30% 0%, 100% 0, 100% 100%, 0 100%, 0% 30%);
+
+    Canto superior direito:
+    clip-path: polygon(0 0, 70% 0%, 100% 30%, 100% 100%, 0 100%);
+
+    Canto inferior esquerdo:
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%, 0% 70%);
+
+    Canto inferior direito:
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 100%, 0 100%);
+
+    Cantos Superior e Inferior Esquerdo:
+    clip-path: polygon(30% 0%, 100% 0, 100% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+    Cantos Superior e Inferior Direito:
+    clip-path: polygon(0 0, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 0 100%);
+
+    Cantos Superiores:
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 100%, 0 100%, 0% 30%);
+
+    Cantos Inferiores:
+    clip-path: polygon(100% 0, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0 0);
+
+  Faixa Canto Supreior esquerdo:
+  clip-path: polygon(0% 0%, 0 35%, 27% 0, 35% 0, 0 46%, 0 100%, 100% 100%, 100% 0%);
+*/
+
+
+@media (max-width: 975px){
+  #row1 {
+    clip-path: polygon(0 0, 88% 5%, 100% 0%, 100% 100%, 0 100%) !important;
+  }
+  #cv-image1 {
+    /*-webkit-clip-path: polygon(30% 0%, 100% 0, 100% 70%, 70% 100%, 0 100%, 0% 30%);*/
+    clip-path: polygon(20% 0%, 100% 0, 100% 80%, 80% 100%, 0 100%, 0% 20%) !important;
+  }
+  #panel1 {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0) !important;
+    /*clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%, 0% 70%);*/
+    min-height: 60vh;
+  }
+  #carouselhome {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0) !important;
+  }
+  #cv-image2{
+    margin-top: 0;
+    clip-path: polygon(0% 0%, 27% 5%, 64% 0, 100% 5%, 100% 100%, 63% 95%, 26% 100%, 0 94%);
+  }
+  .hex3 {
+    display: none;
+  }
+
+}
