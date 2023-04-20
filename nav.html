@@ -57,25 +57,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a id="inicio-link" class="nav-link" href="index.html">Início</a>
+          <a id="index-link" class="nav-link" href="index.html">Início</a>
         </li>
         <li class="nav-item">
-          <a id="projetos-link" class="nav-link" href="#">Projetos</a>
+          <a id="projects-link" class="nav-link" href="projects.html">Projetos</a>
         </li>
         <li class="nav-item">
-          <a id="membros-link" class="nav-link" href="members.html">Membros</a>
+          <a id="members-link" class="nav-link" href="members.html">Membros</a>
         </li>
         <li class="nav-item">
-          <a id="processo-link" class="nav-link" href="#">Processo Seletivo</a>
+          <a id="joinus-link" class="nav-link" href="joinus.html">Processo Seletivo</a>
         </li>
         <li class="nav-item">
-          <a id="parceiros-link"class="nav-link" href="#">Parceiros</a>
+          <a id="partners-link"class="nav-link" href="partners.html">Parceiros</a>
         </li>
         <li class="nav-item">
-          <a id="sobre-link" class="nav-link" href="#">Sobre</a>
+          <a id="about-link" class="nav-link" href="about.html">Sobre</a>
         </li>
         <li class="nav-item">
-          <a id="contato-link" class="nav-link" href="#">Contato</a>
+          <a id="contact-link" class="nav-link" href="contact.html">Contato</a>
         </li>
         <!--li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -103,9 +103,29 @@
 <script type="text/javascript">
   var path = window.location.pathname;
   var page = path.split("/").pop();
-  if (page == "index.html") {
-    document.getElementById("inicio-link").classList.add('active');
-  } else if(page == "members.html"){
-    document.getElementById("membros-link").classList.add('active');
+  switch (page) {
+    case "index.html":
+      document.getElementById("index-link").classList.add('active');
+      break;
+    case "projects.html":
+      document.getElementById("projects-link").classList.add('active');
+      break;
+    case "members.html":
+      document.getElementById("members-link").classList.add('active');
+      break;
+    case "joinus.html":
+      document.getElementById("joinus-link").classList.add('active');
+      break;
+    case "partners.html":
+      document.getElementById("partners-link").classList.add('active');
+      break;
+    case "contact.html":
+      document.getElementById("contact-link").classList.add('active');
+      break;
+    case "about.html":
+      document.getElementById("about-link").classList.add('active');
+      break;
+    default:
+      break;
   }
 </script>
